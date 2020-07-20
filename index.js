@@ -1,8 +1,8 @@
 function countDown(number) {
-  let n = number;
-  while (n >= 0) {
-    console.log(n);
-    n--;
+  // let n = number;
+  while (number>= 0) {
+    console.log(number);
+    number--;
   }
 }
 
