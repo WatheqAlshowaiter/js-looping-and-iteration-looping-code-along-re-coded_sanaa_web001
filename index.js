@@ -12,7 +12,7 @@ countDown(3);
 function writeCards(names, giftName) {
   let output =[];
     for (let i = 0; i < names.length; i++) {
-      output+="Thank you, " + names[i] + ", for the wonderful " + giftName + " gift!";
+      output.push("Thank you, " + names[i] + ", for the wonderful " + giftName + " gift!");
   }
   return output;
 }
