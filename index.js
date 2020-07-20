@@ -1,13 +1,9 @@
-const gifts = ["teddy bear", "drone", "doll"];
-
-function wrapGifts(gifts) {
-  let i = 0; // the initialization moved OUTSIDE the body of the loop!
-  while (i < gifts.length) {
-    console.log(`Wrapped ${gifts[i]} and added a bow!`);
-    i++; // the iteration moves INSIDE the body of the loop!
+function countDown(number) {
+  let n = number;
+  while (n >= 0) {
+    console.log(n);
+    n--;
   }
-
-  return gifts;
 }
 
-wrapGifts(gifts);
+countDown(3);
